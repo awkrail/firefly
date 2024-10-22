@@ -5,7 +5,6 @@ import math
 from torchvision.transforms import Compose, ToTensor
 from timm.data.transforms_factory import create_transform
 from timm.data import resolve_data_config
-from typing import Optional
 
 from firefly.base_encoder import BaseVisionEncoder
 from firefly.frame_extractor.frame import VideoFrame
