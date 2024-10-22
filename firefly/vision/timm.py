@@ -2,8 +2,6 @@ import timm
 import torch
 import math
 
-from PIL import Image
-
 from torchvision.transforms import Compose, ToTensor
 from timm.data.transforms_factory import create_transform
 from timm.data import resolve_data_config
