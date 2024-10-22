@@ -8,6 +8,17 @@ Yet another multimodal video feature extractor.
 - multilingual: english, japanese VLM backbones
 - synchronization: same-dimensional audio-visual feature (sequence length should be same)
 
+# Libraries
+FFmpeg
+```
+apt install ffmpeg
+```
+
+Pytorch
+```
+pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 torchtext==0.16.0 --index-url https://download.pytorch.org/whl/cu118
+```
+
 # Models
 ### Vision-only
 - [x] : TIMM models
