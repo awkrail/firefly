@@ -54,7 +54,6 @@ class TimmEncoder(BaseVisionEncoder):
                 _video_features = self._model.forward_features(_frames)
             else:
                 _video_features = self._model(_frames)
-            import ipdb; ipdb.set_trace()
             video_features.append(_video_features)
         video_feature_tensor = torch.cat(video_features, dim=0)
         return video_feature_tensor
